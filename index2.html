@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Home Genie</title>
+</head>
+<body>
+
+    <header class="main-header navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#">
+            <a href="index.html"><img src="logo.png" alt="Logo" width="129" height="89"></a>
+        </a>
+
+        <div class="dropdown location-dropdown ml-2">
+            <button class="btn btn-light dropdown-toggle" type="button" id="locationDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <img src="loco.png" alt="Location Icon" class="location-icon">
+            </button>
+            <div class="dropdown-menu" aria-labelledby="locationDropdown">
+                <a class="dropdown-item" href="#">Bhopal</a>
+                <a class="dropdown-item" href="#">Ashta</a>
+                <a class="dropdown-item" href="#">Sehore</a>
+            </div>
+        </div>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto align-items-center">
+                <li class="nav-item">
+                    <form class="form-inline">
+                        <input class="form-control" type="search" placeholder="Search for AC services..." aria-label="Search">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+                            <img src="search.png" alt="Search Icon" class="search-icon">
+                        </button>
+                    </form>
+                </li>
+                <li class="nav-item">
+                    <button class="btn btn-success ml-2" onclick="location.href='index2.html'">Schedule a service</button>
+
+                </li>
+            </ul>
+
+            <button class="btn btn-light ml-2 whatsapp-button">
+                <img src="whatsapp.png" alt="WhatsApp Icon" width="60" height="41">
+            </button>
+            <button class="btn btn-light ml-2 login-button">Login</button>
+        </div>
+    </header>
+
+
+    
+
+  
+ <div class="h1-container">
+    <h1 class="font-weight-bold font-italic">Services We Offer</h1>
+ </div>
+
+ <div class="image-grid">
+    <!-- Top Left Image -->
+    <div class="image-container">
+        <img src="s1.png" alt="Appall" width="525" height="185">
+        <a href="#" class="click-me">View Details</a>
+    </div>
+
+    <!-- Top Right Image -->
+    <div class="image-container">
+        <img src="s2.png" alt="Appkit" width="525" height="185">
+        <a href="#" class="click-me">View Details</a>
+    </div>
+
+    <!-- Bottom Left Image -->
+    <div class="image-container">
+        <img src="s3.png" alt="Appdig" width="525" height="185">
+        <a href="#" class="click-me">View Details</a>
+    </div>
+
+    <!-- Bottom Right Image -->
+    <div class="image-container">
+        <img src="s4.png" alt="Appele" width="525" height="185">
+        <a href="#" class="click-me">View Details</a>
+    </div>
+    
+    <!-- Top Right Image -->
+    <div class="image-container">
+        <img src="s5.png" alt="Appkit" width="525" height="185">
+        <a href="#" class="click-me">View Details</a>
+    </div>
+
+    <!-- Bottom Left Image -->
+    <div class="image-container">
+        <img src="s6.png" alt="Appdig" width="525" height="185">
+        <a href="#" class="click-me">View Details</a>
+    </div>
+ </div>
+
+
+<div class="secondary-body">
+    <!-- Left Div -->
+    <div class="left-div">
+        <h4 class="left-heading">Let's Number Talk.</h4>
+        <div class="grid-container">
+            <!-- Top Left Rectangle -->
+            <div class="grid-item">
+                <p>5+<br>Variety<br>Services</p>
+            </div>
+            <!-- Top Right Rectangle -->
+            <div class="grid-item">
+                <p>150+<br>Partners</p>
+            </div>
+            <!-- Bottom Left Rectangle -->
+            <div class="grid-item">
+                <p>25000+<br>Happy<br>Customers</p>
+            </div>
+            <!-- Bottom Right Rectangle -->
+            <div class="grid-item">
+                <p>200+<br>Expert<br>Technicians</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Right Div -->
+    <div class="right-div">
+        <h4 class="right-heading">Fill up the form to get a call from us</h4>
+        <form class="request-form">
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName" name="firstName" required>
+
+            <label for="phoneNumber">Phone Number:</label>
+            <input type="text" id="phoneNumber" name="phoneNumber" required>
+
+            <label for="pinCode">Pin Code (Optional):</label>
+            <input type="text" id="pinCode" name="pinCode">
+
+            <label for="warrantyExpired">Warranty Expired?</label>
+            <select id="warrantyExpired" name="warrantyExpired">
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+            </select>
+
+            <label for="selectAppliance">Select Appliance:</label>
+            <select id="selectAppliance" name="selectAppliance">
+                <option value="appliance1">Appliance 1</option>
+                <option value="appliance2">Appliance 2</option>
+                <option value="appliance3">Appliance 3</option>
+            </select>
+
+            <button type="submit" class="service-request-button">Service Request</button>
+        </form>
+    </div>
+</div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+

@@ -193,12 +193,13 @@ h1 {
     top: 60%; /* Adjust the top position to move the button slightly downwards */
     left: 10px; /* Adjust the left position to move the button to the far left */
     transform: translateY(-50%);
-    background-color: black;
+    background-color:#033652;
+    ;
     color: white;
     padding: 10px;
     text-decoration: none;
     font-weight: bold;
-    opacity: 1; /* Visible by default */
+    opacity: 2; /* Visible by default */
     transition: opacity 0.3s ease-in-out;
 }
 
